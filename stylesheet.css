@@ -3,30 +3,43 @@
 body {
   margin: 0;
   padding: 0;
-  background: #000fff;
+  background: #1a1a2e;
   color: transparent;
   font-family: 'Inconsolata', monospace;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
+
 * {
   user-select: none;
 }
+
 .word {
   position: absolute;
   cursor: grab;
   font-size: 30px;
-  color: #ffeb3b;
+  color: #e94560;
+  transition: color 0.3s ease;
 }
+
 .word.highlighted {
   font-weight: bold;
-  color: black;
+  color: #1a347c;
+}
+
+.word.adjective {
+  color: #0f3460;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #a5a5a5;
   display: block;
   padding: 1rem;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff;
 }
