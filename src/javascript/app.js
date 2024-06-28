@@ -79,9 +79,9 @@ const renderCanvas = () => {
         render: {
           fillStyle: "transparent"
         },
-        friction: 0.1,
-        frictionAir: 0.05,
-        restitution: 0.25
+        friction: 0.2,
+        frictionAir: 0.10,
+        restitution: 0.30
       }),
       elem: elemRef,
       render() {
